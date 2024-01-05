@@ -1,0 +1,133 @@
+*{
+    margin:0;
+}
+.nav-container li{
+    display:inline;
+    padding:10px;
+    margin:10px;
+}
+.nav-container ul{
+    background-color: black;
+
+}
+.nav-container li a{
+    color:white;
+    text-decoration: none;
+    font-size:25px;
+}
+.nav-container li a:hover{
+    background-color: gray;
+}
+#banner-image{
+    width:100%;
+    opacity:0.4;
+}
+.banner-title{
+    position:absolute;
+    top:40%;
+    left:38%;
+    font-size: 5em;
+}
+.banner-subtitle{
+    position:absolute;
+    top:60%;
+    left:10%;
+    font-size: 2em;
+    color:rgb(19, 7, 16);
+
+}
+.skill-heading{
+    margin:20px;
+    font-size: 50px;
+    text-align: center;
+}
+.skills{
+    display:flex;
+    /*horizontal aligment*/
+    justify-content:space-evenly;
+}
+.skill{
+    display:flex;
+     /* vertical aligment*/
+    align-items:center;
+}
+.skill-text{
+    font-size: 1.5em;
+}
+#skill-html5{
+    width: 100px;
+    height: 100px;
+}
+#skill-css{ 
+    width: 100px;
+    height: 100px;
+}
+#skill-javascript{
+    width: 100px;
+    height: 100px;
+}
+#skill-python{
+    width: 100px;
+    height: 100px;
+}
+.project-heading{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.project-img{
+    width: 250px;
+    height: 250px;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.project-info{
+    font-size: 20px;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#my-image{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.about-me p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(228, 188, 230);
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#skill-container{
+    background-color:rgb(158, 98, 190);
+    border-radius: 10px;
+
+}
+#project-container{
+    background-color:rgb(203, 159, 226);
+    border-radius: 10px;
+
+}
+#about-me-container{
+    background-color:rgb(211, 181, 228);
+    border-radius: 10px;
+
+}
+
